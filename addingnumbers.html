@@ -5,19 +5,13 @@
 </head>
 
 <body>
-    <h1>complete the off sylabus of javascript</h1>
+    <h1>javascript lolly</h1>
+    <div id="innerdiv"></div>
+    <button  id='button'>clickme</button>
     <script>
-        let sum= 0;
-        while (true) {
-
-            let value= +prompt("Enter number:", '');
-
-            if(!value) break;
-
-            sum +=value;
-        }
-        alert("sum:" + sum)
-        
+      document.getElementById('button').addEventListener('click', function(){
+        document.getElementById('innerdiv').innerHTML="java script language"
+      })
     </script>
 </body>
 
